@@ -1,142 +1,144 @@
-/* Master Styles */
-h1 {
-  color: #369; 
-  font-family: Arial, Helvetica, sans-serif;   
-  font-size: 250%;
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
-h2, h3 { 
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;   
-  font-weight: lighter;
+.layout {
+   height: 100vh;
+   vertical-align: top;
 }
-body { 
-  margin: 2em; 
+.nav--left {
+  height: 100%;
+  background: #343436;
+  color: white;
 }
-body, input[text], button { 
-  color: #888; 
-  font-family: Cambria, Georgia; 
+
+.layout {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+ 
 }
-a {
-  cursor: pointer;
-  cursor: hand;
+
+.layout__left {
+  border-right: 2px solid darkgray;
+  flex-grow: 0;
+  overflow-y: hidden;
 }
+
+.layout__right {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+nav {
+  background: #4e014e;
+  padding: 10px;
+}
+
+nav h1 {
+ margin: 0;
+ color: white;
+}
+
+.content {
+  background: purple;
+  height: 70%;
+  overflow-y: auto;
+}
+
+.content h2 {
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+  font-size: 17px;
+}
+
+.content.active {
+  height: 100%;
+}
+
+.calculator-container {
+  flex: 0.9;
+  overflow-y: scroll;
+}
+
+.callout--more-questions {
+  background: #4e014e;
+  padding: 50px 20px;
+  margin-top: 25px;
+  color: white;
+  text-align: center;
+}
+
+.form-container {
+   padding: 0px 20px;
+}
+
+select, input {
+      background: #eee;
+    border: 0;
+    padding: 8px 20px 8px 5px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.form__submit-holder {
+  text-align: center;
+  padding: 40px 20px;
+}
+
 button {
-  font-family: Arial;
-  background-color: #eee;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  cursor: hand;
-}
-button:hover {
-  background-color: #cfd8dc;
-}
-button:disabled {
-  background-color: #eee;
-  color: #aaa; 
-  cursor: auto;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  background: purple;
+  border: 0;
+  border-radius: 15px 10px;
+  font-weight: 700;
+  font-size: 22px;
 }
 
-/* Navigation link styles */
-nav a {
-  padding: 5px 10px;
-  text-decoration: none;
-  margin-top: 10px;
+.ads {
+  height: 30%;
+}
+
+.ads img {
+  width: 100%;
+}
+
+label, select {
   display: inline-block;
-  background-color: #eee;
-  border-radius: 4px;
-}
-nav a:visited, a:link {
-  color: #607D8B;
-}
-nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
-}
-nav a.router-link-active {
-  color: #039be5;
 }
 
-/* items class */
-.items {
-  margin: 0 0 2em 0;
-  list-style-type: none;
-  padding: 0;
-  width: 24em;
+select {
+  max-width: 90%;
 }
-.items li {
-  cursor: pointer;
-  position: relative;
-  left: 0;
-  background-color: #EEE;
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  border-radius: 4px;
-}
-.items li:hover {
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
-.items li.selected:hover {
-  background-color: #BBD8DC;
-  color: white;
-}
-.items .text {
-  position: relative;
-  top: -3px;
-}
-.items {
-  margin: 0 0 2em 0;
-  list-style-type: none;
-  padding: 0;
-  width: 24em;
-}
-.items li {
-  cursor: pointer;
-  position: relative;
-  left: 0;
-  background-color: #EEE;
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  border-radius: 4px;
-}
-.items li:hover {
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
-.items li.selected {
-  background-color: #CFD8DC;
-  color: white;
+.long-selects label {
+  display: block;
+  margin: 10px 0;
 }
 
-.items li.selected:hover {
-  background-color: #BBD8DC;
-}
-.items .text {
-  position: relative;
-  top: -3px;
-}
-.items .badge {
-  display: inline-block;
-  font-size: small;
-  color: white;
-  padding: 0.8em 0.7em 0 0.7em;
-  background-color: #607D8B;
-  line-height: 1em;
-  position: relative;
-  left: -1px;
-  top: -4px;
-  height: 1.8em;
-  margin-right: .8em;
-  border-radius: 4px 0 0 4px;
+label {
+  margin-right: 5px;
 }
 
-/* everywhere else */
-* { 
-  font-family: Arial, Helvetica, sans-serif; 
+.other-calculators {
+ flex-grow: 0.03;
+}
+
+.other-calculators a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  padding: 10px 0;
+}
+
+.other-calculators a:hover {
+  background: #49494c;
+  border-radius: 100%;
 }
