@@ -357,7 +357,6 @@ export const SPORTS_ACTIVITIES: Object = [
 ];
 
 export const WORK_ACTIVITIES: Object = [
-    "choose one activity",
     "active workstation, treadmill desk, walking",
     "airline flight attendant",
     "bakery, general, moderate effort",
@@ -482,7 +481,6 @@ export const WORK_ACTIVITIES: Object = [
 ];
 
 export const GYM_ACTIVITIES = [
-    "choose one activity",
     "resistance training, vigorous – weight lifting, power lifting or body building",
     "resistance training, squats , slow or explosive effort",
     "resistance training, multiple exercises, 8-15 repetitions at varied resistance",

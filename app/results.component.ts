@@ -1,13 +1,13 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 
 @Component({
     selector: 'results',
     template: `
-        <div class="content">
+        <div class="content" *ngIf="output">
           <div [hidden]="output.available">
             <h2>Your results will be populated here once you complete the form</h2>
           </div>
-          <div *ngIf="output.available">
+          <div [hidden]="!output.available">
             {{output.test}}
           </div>
         </div>

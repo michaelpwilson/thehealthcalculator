@@ -1,7 +1,7 @@
 import { NgModule }             from '@angular/core';
 import { BrowserModule }        from '@angular/platform-browser';
 import { RouterModule }         from '@angular/router';
-import { ReactiveFormsModule }  from '@angular/forms';
+import { FormsModule }  from '@angular/forms';
 
 import { AppComponent }            from './app.component';
 import { BurnedCaloriesComponent } from './burnedCalories.component';
@@ -18,7 +18,7 @@ const routes = [
 @NgModule({
   imports:      [
     BrowserModule,
-    ReactiveFormsModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   declarations: [ AppComponent, BurnedCaloriesComponent, ResultsComponent ],
