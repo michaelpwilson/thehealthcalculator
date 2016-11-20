@@ -1,5 +1,4 @@
 export interface Calc {
-    available: Boolean;
     gender: string;
     weightType: string;
     weight: number;

@@ -18,31 +18,31 @@ import { Component, Input, OnChanges } from '@angular/core';
                 <tbody>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">Your RMR</td>
-                        <td></td>
+                        <td class="table-row-value">{{output.rmr}}</td>
                     </tr>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">Research Model</td>
-                        <td></td>
+                        <td class="table-row-value"></td>
                     </tr>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">METS</td>
-                        <td></td>
+                        <td class="table-row-value"></td>
                     </tr>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">Corrected METS</td>
-                        <td></td>
+                        <td class="table-row-value"></td>
                     </tr>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">Duration</td>
-                        <td></td>
+                        <td class="table-row-value"></td>
                     </tr>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">Calories Used For Exercise</td>
-                        <td></td>
+                        <td class="table-row-value"></td>
                     </tr>
                     <tr>
                         <td style="border-right: 1px solid #dedede;">Calories Used During Exercise</td>
-                        <td></td>
+                        <td class="table-row-value"></td>
                     </tr>
                 </tbody>
             </table>

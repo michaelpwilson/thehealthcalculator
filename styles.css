@@ -167,3 +167,8 @@ td {
     border-bottom: 1px solid #cac2c2;
 }      
 
+.table-row-value {
+    font-size: 35px;
+    font-weight: 700;
+    color: purple;
+}

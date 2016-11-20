@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './data.service';
 import { Calc } from './calc';
+import { BurnedCalories } from './burnedCalories';
 
 @Component({
     selector: 'burned-calories',
@@ -34,7 +35,7 @@ import { Calc } from './calc';
         <option value="stones">Stones</option>
       </select>
       
-      <input placeholder="300" type="number" [ngModel]="calcData.weight" name="weight">
+      <input placeholder="300" type="number" [(ngModel)]="calcData.weight" name="weight">
       
       <h4>Step 3: Enter Your Height</h4>
 
@@ -44,12 +45,12 @@ import { Calc } from './calc';
         <option value="centimeters">Centimeters</option>
       </select>
       
-      <input placeholder="300" type="number" [ngModel]="calcData.height" name="height">
+      <input placeholder="300" type="number" [(ngModel)]="calcData.height" name="height">
       
       <h4>Step 4: Enter Your Age</h4>
       
       <label for="age">Age</label>
-      <input type="number" [ngModel]="calcData.age" name="age">
+      <input type="number" [(ngModel)]="calcData.age" name="age">
 
       <div class="long-selects">
         <h4>Step 5: Select One Activity</h4>
@@ -129,7 +130,7 @@ Calories Burned
     
   </div>
   <div class="layout__right">
-    <results [output]="calcData"></results>
+    <results [output]="resultData"></results>
     <div class="ads">
      <img src="http://w0.fast-meteo.com/locationmaps/Gravesend.12.gif">
     </div>
@@ -144,6 +145,7 @@ export class BurnedCaloriesComponent implements OnInit {
     gymActivity: Object;
     burnedCaloriesGroup: Object;
     public calcData: Calc;
+    public resultData: BurnedCalories;
 
     constructor(private dataService: DataService) {}
 
@@ -164,8 +166,23 @@ export class BurnedCaloriesComponent implements OnInit {
     }
 
     calc(): void {
-        // ryan works here
-        this.calcData.available = true;
+        let first  = 88.362,
+            second = 4.799,
+            third  = 13.397,
+            fourth = 5.677;
+
+        if(this.calcData.gender == "female") {
+            first  = 477.593,
+            second = 3.098,
+            third  = 9.247,
+            fourth = 4.6756;
+        }
+
+        // validate here converting to cm for height and weight kg
+        console.log(this.calcData);
+
+        this.resultData.rmr = first + second * this.calcData.height + third * this.calcData.weight - fourth * this.calcData.age;
+        this.resultData.available = true;
     }
 
     submit(): void {
@@ -178,12 +195,16 @@ export class BurnedCaloriesComponent implements OnInit {
         this.workActivities();
         this.gymActivities();
 
-        this.calcData = {
+        this.resultData = {
             available: false,
+            rmr: null
+        };
+
+        this.calcData = {
             gender: "Male",
             weightType: "kilograms",
             weight: null,
-            heightType: "",
+            heightType: "", 
             height: null,
             age: null,
             gymActivity: null,
