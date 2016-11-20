@@ -142,3 +142,7 @@ label {
   background: #49494c;
   border-radius: 100%;
 }
+
+.ng-valid button[type=submit] {
+    cursor: pointer;
+}
