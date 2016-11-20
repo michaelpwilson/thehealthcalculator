@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './data.service';
+import { Calc } from './calc';
 
 @Component({
     selector: 'burned-calories',
@@ -142,7 +143,7 @@ export class BurnedCaloriesComponent implements OnInit {
     workActivity: Object;
     gymActivity: Object;
     burnedCaloriesGroup: Object;
-    public calcData: Object = { available: false };
+    public calcData: Calc;
 
     constructor(private dataService: DataService) {}
 
@@ -164,7 +165,6 @@ export class BurnedCaloriesComponent implements OnInit {
 
     calc(): void {
         // ryan works here
-
         this.calcData.available = true;
     }
 
@@ -177,6 +177,21 @@ export class BurnedCaloriesComponent implements OnInit {
         this.sportActivities();
         this.workActivities();
         this.gymActivities();
+
+        this.calcData = {
+            available: false,
+            gender: "Male",
+            weightType: "kilograms",
+            weight: null,
+            heightType: "",
+            height: null,
+            age: null,
+            gymActivity: null,
+            workActivity: null,
+            houseActivity: null,
+            exerciseDurationHours: null,
+            exerciseDurationMinutes: null
+        };
     }
 
 }

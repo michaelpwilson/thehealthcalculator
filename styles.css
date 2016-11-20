@@ -144,5 +144,26 @@ label {
 }
 
 .ng-valid button[type=submit] {
-    cursor: pointer;
+  cursor: pointer;
 }
+
+table {
+  width: 100%;
+  background: rgb(78, 1, 78);
+  min-height: 500px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+} 
+
+th {
+  color: #eee;
+}
+
+td {
+    background: #eee;
+    border-bottom: 1px solid #cac2c2;
+}      
+
