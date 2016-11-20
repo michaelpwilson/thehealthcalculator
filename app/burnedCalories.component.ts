@@ -583,98 +583,8 @@ import { Component } from '@angular/core';
       <label>Around The House</label>
    
       <select name="activityHouse">
-<option value="choose one activity   [ScoobMETs=1]">choose one activity</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="cleaning, sweeping carpet or floors, general   [ScoobMETs=3.3]">cleaning, sweeping carpet or floors, general</option>
-<option value="cleaning, sweeping, slow, light effort   [ScoobMETs=2.3]">cleaning, sweeping, slow, light effort</option>
-<option value="cleaning, sweeping, slow, moderate effort   [ScoobMETs=3.8]">cleaning, sweeping, slow, moderate effort</option>
-<option value="cleaning, heavy or major (e.g. wash car, wash windows), moderate effort   [ScoobMETs=3.5]">cleaning, heavy or major (e.g. wash car, wash windows), moderate effort</option>
-<option value="cleaning, mopping, standing, moderate effort   [ScoobMETs=3.5]">cleaning, mopping, standing, moderate effort</option>
-<option value="cleaning windows, washing windows, general   [ScoobMETs=3.2]">cleaning windows, washing windows, general</option>
-<option value="mopping, standing, light effort   [ScoobMETs=2.5]">mopping, standing, light effort</option>
-<option value="polishing floors, standing, walking slowly, using electric polishing machine   [ScoobMETs=4.5]">polishing floors, standing, walking slowly, using electric polishing machine</option>
-<option value="multiple household tasks all at once, light effort   [ScoobMETs=2.8]">multiple household tasks all at once, light effort</option>
-<option value="multiple household tasks all at once, moderate effort   [ScoobMETs=3.5]">multiple household tasks all at once, moderate effort</option>
-<option value="multiple household tasks all at once, vigorous effort   [ScoobMETs=4.3]">multiple household tasks all at once, vigorous effort</option>
-<option value="cleaning, house or cabin, general, moderate effort   [ScoobMETs=3.3]">cleaning, house or cabin, general, moderate effort</option>
-<option value="dusting or polishing furniture, general   [ScoobMETs=2.3]">dusting or polishing furniture, general</option>
-<option value="kitchen activity (cooking, washing dishes, cleaning up), moderate effort   [ScoobMETs=3.3]">kitchen activity (cooking, washing dishes, cleaning up), moderate effort</option>
-<option value="cleaning, straightening up, changing linen, carrying out trash   [ScoobMETs=2.5]">cleaning, straightening up, changing linen, carrying out trash</option>
-<option value="wash dishes, standing    [ScoobMETs=1.8]">wash dishes, standing </option>
-<option value="wash dishes, clearing dishes from table, walking, light effort   [ScoobMETs=2.5]">wash dishes, clearing dishes from table, walking, light effort</option>
-<option value="vacuuming, general, moderate effort   [ScoobMETs=3.3]">vacuuming, general, moderate effort</option>
-<option value="butchering animals, small   [ScoobMETs=3]">butchering animals, small</option>
-<option value="butchering animal, large, vigorous effort   [ScoobMETs=6]">butchering animal, large, vigorous effort</option>
-<option value="cutting and smoking fish, drying fish or meat   [ScoobMETs=2.3]">cutting and smoking fish, drying fish or meat</option>
-<option value="tanning hides, general   [ScoobMETs=4]">tanning hides, general</option>
-<option value="cooking or food preparation, moderate effort   [ScoobMETs=3.5]">cooking or food preparation, moderate effort</option>
-<option value="cooking or food preparation - standing or sitting, manual appliances   [ScoobMETs=2]">cooking or food preparation – standing or sitting, manual appliances</option>
-<option value="serving food, setting table, implied walking or standing   [ScoobMETs=2.5]">serving food, setting table, implied walking or standing</option>
-<option value="cooking or food preparation, walking   [ScoobMETs=2.5]">cooking or food preparation, walking</option>
-<option value="feeding household animals   [ScoobMETs=2.5]">feeding household animals</option>
-<option value="putting away groceries    [ScoobMETs=2.5]">putting away groceries </option>
-<option value="carrying groceries upstairs   [ScoobMETs=7.5]">carrying groceries upstairs</option>
-<option value="cooking Indian bread on an outside stove   [ScoobMETs=3]">cooking Indian bread on an outside stove</option>
-<option value="food shopping with or without a grocery cart, standing or walking   [ScoobMETs=2.3]">food shopping with or without a grocery cart, standing or walking</option>
-<option value="non-food shopping, with or without a cart, standing or walking   [ScoobMETs=2.3]">non-food shopping, with or without a cart, standing or walking</option>
-<option value="ironing   [ScoobMETs=1.8]">ironing</option>
-<option value="knitting, sewing, light effort, wrapping presents, sitting   [ScoobMETs=1.3]">knitting, sewing, light effort, wrapping presents, sitting</option>
-<option value="sewing with a machine   [ScoobMETs=2.8]">sewing with a machine</option>
-<option value="laundry, fold or hang clothes   [ScoobMETs=2]">laundry, fold or hang clothes</option>
-<option value="laundry, hanging wash, washing clothes by hand, moderate effort   [ScoobMETs=4]">laundry, hanging wash, washing clothes by hand, moderate effort</option>
-<option value="laundry, putting away clothes, gathering clothes to pack, putting away laundry   [ScoobMETs=2.3]">laundry, putting away clothes, gathering clothes to pack, putting away laundry</option>
-<option value="making bed, changing linens   [ScoobMETs=3.3]">making bed, changing linens</option>
-<option value="maple syruping/sugar bushing (including carrying buckets, carrying wood)   [ScoobMETs=5]">maple syruping/sugar bushing (including carrying buckets, carrying wood)</option>
-<option value="moving furniture, household items, carrying boxes   [ScoobMETs=5.8]">moving furniture, household items, carrying boxes</option>
-<option value="moving, lifting light loads   [ScoobMETs=5]">moving, lifting light loads</option>
-<option value="organizing room   [ScoobMETs=4.8]">organizing room</option>
-<option value="scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, moderate effort   [ScoobMETs=3.5]">scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, moderate effort</option>
-<option value="scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, light effort   [ScoobMETs=2]">scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, light effort</option>
-<option value="scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, vigorous effort   [ScoobMETs=6.5]">scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, vigorous effort</option>
-<option value="sweeping garage, sidewalk or outside of house   [ScoobMETs=4]">sweeping garage, sidewalk or outside of house</option>
-<option value="standing, packing/unpacking boxes,  loading or unloading items in car   [ScoobMETs=3.5]">standing, packing/unpacking boxes,  loading or unloading items in car</option>
-<option value="implied walking, putting away household items, moderate effort   [ScoobMETs=3]">implied walking, putting away household items, moderate effort</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="lying quietly and watching television   [ScoobMETs=1]">lying quietly and watching television</option>
-<option value="lying quietly, doing nothing, lying in bed awake, listening to music    [ScoobMETs=1.3]">lying quietly, doing nothing, lying in bed awake, listening to music </option>
-<option value="sitting quietly and watching television   [ScoobMETs=1.3]">sitting quietly and watching television</option>
-<option value="sitting quietly, general   [ScoobMETs=1.3]">sitting quietly, general</option>
-<option value="sitting quietly, fidgeting, general, fidgeting hands   [ScoobMETs=1.5]">sitting quietly, fidgeting, general, fidgeting hands</option>
-<option value="sitting, fidgeting feet   [ScoobMETs=1.8]">sitting, fidgeting feet</option>
-<option value="sitting, smoking   [ScoobMETs=1.3]">sitting, smoking</option>
-<option value="sitting, listening to music or watching a movie in a theater   [ScoobMETs=1.5]">sitting, listening to music or watching a movie in a theater</option>
-<option value="sitting at a desk, resting head in hands   [ScoobMETs=1.3]">sitting at a desk, resting head in hands</option>
-<option value="sleeping   [ScoobMETs=0.95]">sleeping</option>
-<option value="standing quietly, standing in a line   [ScoobMETs=1.3]">standing quietly, standing in a line</option>
-<option value="standing, fidgeting   [ScoobMETs=1.8]">standing, fidgeting</option>
-<option value="reclining, writing   [ScoobMETs=1.3]">reclining, writing</option>
-<option value="reclining, talking or talking on phone   [ScoobMETs=1.3]">reclining, talking or talking on phone</option>
-<option value="reclining, reading   [ScoobMETs=1.3]">reclining, reading</option>
-<option value="meditating   [ScoobMETs=1]">meditating</option>
-<option value="mowing lawn, walk, power mower, moderate or vigorous effort   [ScoobMETs=5]">mowing lawn, walk, power mower, moderate or vigorous effort</option>
-<option value="raking lawn or leaves, moderate effort   [ScoobMETs=3.8]">raking lawn or leaves, moderate effort</option>
-<option value="sacking grass, leaves   [ScoobMETs=4]">sacking grass, leaves</option>
-<option value="shoveling dirt or mud   [ScoobMETs=5.5]">shoveling dirt or mud</option>
-<option value="shoveling snow, by hand, moderate effort   [ScoobMETs=5.3]">shoveling snow, by hand, moderate effort</option>
-<option value="shoveling snow, by hand ( 610)   [ScoobMETs=6]">shoveling snow, by hand ( 610)</option>
-<option value="shoveling snow, by hand, vigorous effort   [ScoobMETs=7.5]">shoveling snow, by hand, vigorous effort</option>
-<option value="trimming shrubs or trees, manual cutter   [ScoobMETs=4]">trimming shrubs or trees, manual cutter</option>
-<option value="trimming shrubs or trees, using leaf blower, edger   [ScoobMETs=3.5]">trimming shrubs or trees, using leaf blower, edger</option>
-<option value="walking, applying fertilizer or seeding a lawn, push applicator   [ScoobMETs=3]">walking, applying fertilizer or seeding a lawn, push applicator</option>
-<option value="watering lawn or garden, standing or walking   [ScoobMETs=1.5]">watering lawn or garden, standing or walking</option>
-<option value="weeding, cultivating garden, light-to-moderate effort   [ScoobMETs=3.5]">weeding, cultivating garden, light-to-moderate effort</option>
-<option value="weeding, cultivating garden ( 580)   [ScoobMETs=4.5]">weeding, cultivating garden ( 580)</option>
-<option value="weeding, cultivating garden, using a hoe, moderate-to-vigorous effort   [ScoobMETs=5]">weeding, cultivating garden, using a hoe, moderate-to-vigorous effort</option>
-<option value="gardening, general, moderate effort   [ScoobMETs=3.8]">gardening, general, moderate effort</option>
-<option value="picking fruit off trees, picking fruits/vegetables, moderate effort   [ScoobMETs=3.5]">picking fruit off trees, picking fruits/vegetables, moderate effort</option>
-<option value="picking vegatables or fruit off trees   [ScoobMETs=4.5]">picking vegatables or fruit off trees</option>
-<option value="implied walking/standing - picking up yard, light, picking flowers or vegetables   [ScoobMETs=3.3]">implied walking/standing – picking up yard, light, picking flowers or vegetables</option>
-<option value="walking, gathering gardening tools   [ScoobMETs=3]">walking, gathering gardening tools</option>
-<option value="wheelbarrow, pushing garden cart or wheelbarrow   [ScoobMETs=5.5]">wheelbarrow, pushing garden cart or wheelbarrow</option>
-<option value="yard work, general, light effort   [ScoobMETs=3]">yard work, general, light effort</option>
-<option value="yard work, general, moderate effort   [ScoobMETs=4]">yard work, general, moderate effort</option>
-<option value="yard work, general, vigorous effort   [ScoobMETs=6]">yard work, general, vigorous effort</option>
-</select>
+        <option *ngFor="let activity of houseActivity">{{activity}}</option>
+      </select>
   </div>
   
       <h4>Step 6: Exercise Duration	Hours:    Min:</h4>
@@ -725,9 +635,7 @@ Calories Burned
     
   </div>
   <div class="layout__right">
-    <div class="content">
-      <h2>Your results will be populated here once you complete the form</h2>
-    </div>
+    <results></results>
     <div class="ads">
      <img src="http://w0.fast-meteo.com/locationmaps/Gravesend.12.gif">
     </div>
@@ -735,4 +643,96 @@ Calories Burned
 </div>
     `
 })
-export class BurnedCaloriesComponent { }
+export class BurnedCaloriesComponent { 
+    public houseActivity: Object = [
+"cleaning, sweeping carpet or floors, general",
+"cleaning, sweeping, slow, light effort",
+"cleaning, sweeping, slow, moderate effort",
+"cleaning, heavy or major (e.g. wash car, wash windows), moderate effort",
+"cleaning, mopping, standing, moderate effort",
+"cleaning windows, washing windows, general",
+"mopping, standing, light effort",
+"polishing floors, standing, walking slowly, using electric polishing machine",
+"multiple household tasks all at once, light effort",
+"multiple household tasks all at once, moderate effort",
+"multiple household tasks all at once, vigorous effort",
+"cleaning, house or cabin, general, moderate effort",
+"dusting or polishing furniture, general",
+"kitchen activity (cooking, washing dishes, cleaning up), moderate effort",
+"cleaning, straightening up, changing linen, carrying out trash",
+"wash dishes, standing",
+"wash dishes, clearing dishes from table, walking, light effort",
+"vacuuming, general, moderate effort",
+"butchering animals, small",
+"butchering animal, large, vigorous effort",
+"cutting and smoking fish, drying fish or meat",
+"tanning hides, general",
+"cooking or food preparation, moderate effort",
+"cooking or food preparation – standing or sitting, manual appliances",
+"serving food, setting table, implied walking or standing",
+"cooking or food preparation, walking",
+"feeding household animals",
+"putting away groceries",
+"carrying groceries upstairs",
+"cooking Indian bread on an outside stove",
+"food shopping with or without a grocery cart, standing or walking",
+"non-food shopping, with or without a cart, standing or walking",
+"ironing",
+"knitting, sewing, light effort, wrapping presents, sitting",
+"sewing with a machine",
+"laundry, fold or hang clothes",
+"laundry, hanging wash, washing clothes by hand, moderate effort",
+"laundry, putting away clothes, gathering clothes to pack, putting away laundry",
+"making bed, changing linens",
+"maple syruping/sugar bushing (including carrying buckets, carrying wood)",
+"moving furniture, household items, carrying boxes",
+"moving, lifting light loads",
+"organizing room",
+"scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, moderate effort",
+"scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, light effort",
+"scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, vigorous effort",
+"sweeping garage, sidewalk or outside of house",
+"standing, packing/unpacking boxes,  loading or unloading items in car",
+"implied walking, putting away household items, moderate effort",
+"lying quietly and watching television",
+"lying quietly, doing nothing, lying in bed awake, listening to music",
+"sitting quietly and watching television",
+"sitting quietly, general",
+"sitting quietly, fidgeting, general, fidgeting hands",
+"sitting, fidgeting feet",
+"sitting, smoking",
+"sitting, listening to music or watching a movie in a theater",
+"sitting at a desk, resting head in hands",
+"sleeping",
+"standing quietly, standing in a line",
+"standing, fidgeting",
+"reclining, writing",
+"reclining, talking or talking on phone",
+"reclining, reading",
+"meditating",
+"mowing lawn, walk, power mower, moderate or vigorous effort",
+"raking lawn or leaves, moderate effort",
+"sacking grass, leaves",
+"shoveling dirt or mud",
+"shoveling snow, by hand, moderate effort",
+"shoveling snow, by hand ( 610)",
+"shoveling snow, by hand, vigorous effort",
+"trimming shrubs or trees, manual cutter",
+"trimming shrubs or trees, using leaf blower, edger",
+"walking, applying fertilizer or seeding a lawn, push applicator",
+"watering lawn or garden, standing or walking",
+"weeding, cultivating garden, light-to-moderate effort",
+"weeding, cultivating garden ( 580)",
+"weeding, cultivating garden, using a hoe, moderate-to-vigorous effort",
+"gardening, general, moderate effort",
+"picking fruit off trees, picking fruits/vegetables, moderate effort",
+"picking vegatables or fruit off trees",
+"implied walking/standing – picking up yard, light, picking flowers or vegetables",
+"walking, gathering gardening tools",
+"wheelbarrow, pushing garden cart or wheelbarrow",
+"yard work, general, light effort",
+"yard work, general, moderate effort",
+"yard work, general, vigorous effort"
+];
+
+}

@@ -4,6 +4,7 @@ import { RouterModule }   from '@angular/router';
 
 import { AppComponent }  from './app.component';
 import { BurnedCaloriesComponent } from './burnedCalories.component';
+import { ResultsComponent } from './results.component';
 
 @NgModule({
   imports:      [
@@ -16,7 +17,7 @@ import { BurnedCaloriesComponent } from './burnedCalories.component';
       }
     ])
   ],
-  declarations: [ AppComponent, BurnedCaloriesComponent ],
+  declarations: [ AppComponent, BurnedCaloriesComponent, ResultsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
