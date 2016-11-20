@@ -166,6 +166,10 @@ export class BurnedCaloriesComponent implements OnInit {
         this.gymActivity = this.dataService.getGymActivities();
     }
 
+    calc(): void {
+        // ryan works here
+    }
+
     submit(): void {
 
         this.dataTest = {
@@ -173,7 +177,7 @@ export class BurnedCaloriesComponent implements OnInit {
             test: "hello"
         };
 
-        console.log("submit works!");
+        this.calc();
 
     }
 
