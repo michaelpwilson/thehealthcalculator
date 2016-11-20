@@ -309,282 +309,14 @@ import { DataService } from './data.service';
       <label>Sports</label>	
       
       <select name="activitySports">
-<option value="choose one activity   [ScoobMETs=1]">choose one activity</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="archery, non-hunting   [ScoobMETs=4.3]">archery, non-hunting</option>
-<option value="badminton, competitive ( 450)   [ScoobMETs=7]">badminton, competitive ( 450)</option>
-<option value="badminton, social singles and doubles, general   [ScoobMETs=5.5]">badminton, social singles and doubles, general</option>
-<option value="basketball, game ( 490)   [ScoobMETs=8]">basketball, game ( 490)</option>
-<option value="basketball, non-game, general ( 480)   [ScoobMETs=6]">basketball, non-game, general ( 480)</option>
-<option value="basketball, general   [ScoobMETs=6.5]">basketball, general</option>
-<option value="basketball, officiating ( 500)   [ScoobMETs=7]">basketball, officiating ( 500)</option>
-<option value="basketball, shooting baskets   [ScoobMETs=4.5]">basketball, shooting baskets</option>
-<option value="basketball, drills, practice   [ScoobMETs=9.3]">basketball, drills, practice</option>
-<option value="basketball, wheelchair   [ScoobMETs=7.8]">basketball, wheelchair</option>
-<option value="billiards   [ScoobMETs=2.5]">billiards</option>
-<option value="bowling ( 390)   [ScoobMETs=3]">bowling ( 390)</option>
-<option value="bowling, indoor, bowling alley   [ScoobMETs=3.8]">bowling, indoor, bowling alley</option>
-<option value="boxing, in ring, general   [ScoobMETs=12.8]">boxing, in ring, general</option>
-<option value="boxing, punching bag   [ScoobMETs=5.5]">boxing, punching bag</option>
-<option value="boxing, sparring   [ScoobMETs=7.8]">boxing, sparring</option>
-<option value="broomball   [ScoobMETs=7]">broomball</option>
-<option value="childrens games, hopscotch, 4-square, dodgeball,  tetherball   [ScoobMETs=5.8]">childrens games, hopscotch, 4-square, dodgeball,  tetherball</option>
-<option value="cheerleading, gymnastic moves, competitive   [ScoobMETs=6]">cheerleading, gymnastic moves, competitive</option>
-<option value="coaching, football, soccer, basketball, baseball, swimming, etc.   [ScoobMETs=4]">coaching, football, soccer, basketball, baseball, swimming, etc.</option>
-<option value="coaching, actively playing sport with players   [ScoobMETs=8]">coaching, actively playing sport with players</option>
-<option value="cricket, batting, bowling, fielding   [ScoobMETs=4.8]">cricket, batting, bowling, fielding</option>
-<option value="croquet   [ScoobMETs=3.3]">croquet</option>
-<option value="curling   [ScoobMETs=4]">curling</option>
-<option value="darts, wall or lawn   [ScoobMETs=2.5]">darts, wall or lawn</option>
-<option value="drag racing, pushing or driving a car   [ScoobMETs=6]">drag racing, pushing or driving a car</option>
-<option value="auto racing, open wheel   [ScoobMETs=8.5]">auto racing, open wheel</option>
-<option value="fencing   [ScoobMETs=6]">fencing</option>
-<option value="football, competitive   [ScoobMETs=8]">football, competitive</option>
-<option value="football, touch, flag, general ( 510)   [ScoobMETs=8]">football, touch, flag, general ( 510)</option>
-<option value="football, touch, flag, light effort   [ScoobMETs=4]">football, touch, flag, light effort</option>
-<option value="football or baseball, playing catch   [ScoobMETs=2.5]">football or baseball, playing catch</option>
-<option value="frisbee playing, general   [ScoobMETs=3]">frisbee playing, general</option>
-<option value="frisbee, ultimate   [ScoobMETs=8]">frisbee, ultimate</option>
-<option value="golf, general   [ScoobMETs=4.8]">golf, general</option>
-<option value="golf, walking, carrying clubs   [ScoobMETs=4.3]">golf, walking, carrying clubs</option>
-<option value="golf, miniature, driving range   [ScoobMETs=3]">golf, miniature, driving range</option>
-<option value="golf, walking, pulling clubs   [ScoobMETs=5.3]">golf, walking, pulling clubs</option>
-<option value="golf, using power cart ( 070)   [ScoobMETs=3.5]">golf, using power cart ( 070)</option>
-<option value="gymnastics, general   [ScoobMETs=3.8]">gymnastics, general</option>
-<option value="hacky sack   [ScoobMETs=4]">hacky sack</option>
-<option value="handball, general ( 520)   [ScoobMETs=12]">handball, general ( 520)</option>
-<option value="handball, team   [ScoobMETs=8]">handball, team</option>
-<option value="high ropes course, multiple elements   [ScoobMETs=4]">high ropes course, multiple elements</option>
-<option value="hang gliding   [ScoobMETs=3.5]">hang gliding</option>
-<option value="hockey, field   [ScoobMETs=7.8]">hockey, field</option>
-<option value="hockey, ice, general   [ScoobMETs=8]">hockey, ice, general</option>
-<option value="hockey, ice, competitive   [ScoobMETs=10]">hockey, ice, competitive</option>
-<option value="horseback riding, general   [ScoobMETs=5.5]">horseback riding, general</option>
-<option value="horse chores, feeding, watering, cleaning stalls   [ScoobMETs=4.3]">horse chores, feeding, watering, cleaning stalls</option>
-<option value="saddling, cleaning, grooming, harnessing and unharnessing horse   [ScoobMETs=4.5]">saddling, cleaning, grooming, harnessing and unharnessing horse</option>
-<option value="horseback riding, trotting   [ScoobMETs=5.8]">horseback riding, trotting</option>
-<option value="horseback riding, canter or gallop   [ScoobMETs=7.3]">horseback riding, canter or gallop</option>
-<option value="horseback riding,walking   [ScoobMETs=3.8]">horseback riding,walking</option>
-<option value="horseback riding, jumping   [ScoobMETs=9]">horseback riding, jumping</option>
-<option value="horse cart, driving, standing or sitting   [ScoobMETs=1.8]">horse cart, driving, standing or sitting</option>
-<option value="horseshoe pitching, quoits   [ScoobMETs=3]">horseshoe pitching, quoits</option>
-<option value="jai alai   [ScoobMETs=12]">jai alai</option>
-<option value="martial arts, slower pace, novice performers, practice   [ScoobMETs=5.3]">martial arts, slower pace, novice performers, practice</option>
-<option value="martial arts, moderate pace (judo, jujitsu, karate, kick boxing, tae kwan do)   [ScoobMETs=10.3]">martial arts, moderate pace (judo, jujitsu, karate, kick boxing, tae kwan do)</option>
-<option value="juggling   [ScoobMETs=4]">juggling</option>
-<option value="kickball   [ScoobMETs=7]">kickball</option>
-<option value="lacrosse   [ScoobMETs=8]">lacrosse</option>
-<option value="lawn bowling, bocce ball, outdoor   [ScoobMETs=3.3]">lawn bowling, bocce ball, outdoor</option>
-<option value="moto-cross, off-road motor sports, all-terrain vehicle, general   [ScoobMETs=4]">moto-cross, off-road motor sports, all-terrain vehicle, general</option>
-<option value="orienteering   [ScoobMETs=9]">orienteering</option>
-<option value="paddleball, competitive   [ScoobMETs=10]">paddleball, competitive</option>
-<option value="paddleball, casual, general    [ScoobMETs=6]">paddleball, casual, general </option>
-<option value="polo, on horseback   [ScoobMETs=8]">polo, on horseback</option>
-<option value="racquetball, competitive   [ScoobMETs=10]">racquetball, competitive</option>
-<option value="racquetball, general   [ScoobMETs=7]">racquetball, general</option>
-<option value="rock or mountain climbing    [ScoobMETs=8]">rock or mountain climbing </option>
-<option value="rock climbing, ascending rock, high difficulty   [ScoobMETs=7.5]">rock climbing, ascending rock, high difficulty</option>
-<option value="rock climbing, ascending or traversing rock, low-to-moderate difficulty   [ScoobMETs=5.8]">rock climbing, ascending or traversing rock, low-to-moderate difficulty</option>
-<option value="rock climbing, rappelling   [ScoobMETs=5]">rock climbing, rappelling</option>
-<option value="rodeo sports, general, light effort   [ScoobMETs=4]">rodeo sports, general, light effort</option>
-<option value="rodeo sports, general, moderate effort   [ScoobMETs=5.5]">rodeo sports, general, moderate effort</option>
-<option value="rodeo sports, general, vigorous effort   [ScoobMETs=7]">rodeo sports, general, vigorous effort</option>
-<option value="rope jumping, fast pace, 120-160 skips/min   [ScoobMETs=12.3]">rope jumping, fast pace, 120-160 skips/min</option>
-<option value="rope jumping, moderate pace, 100-120 skips/min, 2 foot skip, plain bounce   [ScoobMETs=11.8]">rope jumping, moderate pace, 100-120 skips/min, 2 foot skip, plain bounce</option>
-<option value="rope jumping under 100 skips/min, 2 foot skip, rhythm bounce   [ScoobMETs=8.8]">rope jumping under 100 skips/min, 2 foot skip, rhythm bounce</option>
-<option value="rugby, union, team, competitive   [ScoobMETs=8.3]">rugby, union, team, competitive</option>
-<option value="rugby, touch, non-competitive   [ScoobMETs=6.3]">rugby, touch, non-competitive</option>
-<option value="shuffleboard   [ScoobMETs=3]">shuffleboard</option>
-<option value="skateboarding, general, moderate effort   [ScoobMETs=5]">skateboarding, general, moderate effort</option>
-<option value="skateboarding, competitive, vigorous effort   [ScoobMETs=6]">skateboarding, competitive, vigorous effort</option>
-<option value="skating, roller   [ScoobMETs=7]">skating, roller</option>
-<option value="rollerblading, in-line skating, 14.4 km/h (9.0 mph), recreational pace   [ScoobMETs=7.5]">rollerblading, in-line skating, 14.4 km/h (9.0 mph), recreational pace</option>
-<option value="rollerblading, in-line skating, 17.7 km/h (11.0 mph)   [ScoobMETs=9.8]">rollerblading, in-line skating, 17.7 km/h (11.0 mph)</option>
-<option value="rollerblading, in-line skating, 21.0 to 21.7 km/h (13.0 to 13.6 mph)   [ScoobMETs=12.3]">rollerblading, in-line skating, 21.0 to 21.7 km/h (13.0 to 13.6 mph)</option>
-<option value="rollerblading, in-line skating, 24.0 km/h (15.0 mph), maximal effort   [ScoobMETs=14]">rollerblading, in-line skating, 24.0 km/h (15.0 mph), maximal effort</option>
-<option value="skydiving, base jumping, bungee jumping   [ScoobMETs=3.5]">skydiving, base jumping, bungee jumping</option>
-<option value="soccer, competitive   [ScoobMETs=10]">soccer, competitive</option>
-<option value="soccer, casual, general    [ScoobMETs=7]">soccer, casual, general </option>
-<option value="softball or baseball, fast or slow pitch, general    [ScoobMETs=5]">softball or baseball, fast or slow pitch, general </option>
-<option value="softball, practice   [ScoobMETs=4]">softball, practice</option>
-<option value="softball, officiating   [ScoobMETs=4]">softball, officiating</option>
-<option value="softball,pitching   [ScoobMETs=6]">softball,pitching</option>
-<option value="sports spectator, very excited, emotional, physically moving   [ScoobMETs=3.3]">sports spectator, very excited, emotional, physically moving</option>
-<option value="squash    [ScoobMETs=12]">squash </option>
-<option value="squash, general   [ScoobMETs=7.3]">squash, general</option>
-<option value="table tennis, ping pong    [ScoobMETs=4]">table tennis, ping pong </option>
-<option value="tai chi, qi gong, general   [ScoobMETs=3]">tai chi, qi gong, general</option>
-<option value="tai chi, qi gong, sitting, light effort   [ScoobMETs=1.5]">tai chi, qi gong, sitting, light effort</option>
-<option value="tennis, general   [ScoobMETs=7.3]">tennis, general</option>
-<option value="tennis, doubles    [ScoobMETs=6]">tennis, doubles </option>
-<option value="tennis, doubles   [ScoobMETs=4.5]">tennis, doubles</option>
-<option value="tennis, singles    [ScoobMETs=8]">tennis, singles </option>
-<option value="tennis, hitting balls, non-game play, moderate effort   [ScoobMETs=5]">tennis, hitting balls, non-game play, moderate effort</option>
-<option value="trampoline, recreational   [ScoobMETs=3.5]">trampoline, recreational</option>
-<option value="trampoline, competitive   [ScoobMETs=4.5]">trampoline, competitive</option>
-<option value="volleyball    [ScoobMETs=4]">volleyball </option>
-<option value="volleyball, competitive, in gymnasium   [ScoobMETs=6]">volleyball, competitive, in gymnasium</option>
-<option value="volleyball, non-competitive, 6 - 9 member team, general   [ScoobMETs=3]">volleyball, non-competitive, 6 – 9 member team, general</option>
-<option value="volleyball, beach, in sand   [ScoobMETs=8]">volleyball, beach, in sand</option>
-<option value="wrestling (one match = 5 minutes)   [ScoobMETs=6]">wrestling (one match = 5 minutes)</option>
-<option value="wallyball, general   [ScoobMETs=7]">wallyball, general</option>
-<option value="track and field (e.g., shot, discus, hammer throw)   [ScoobMETs=4]">track and field (e.g., shot, discus, hammer throw)</option>
-<option value="track and field (e.g., high jump, long jump, triple jump, javelin, pole vault)   [ScoobMETs=6]">track and field (e.g., high jump, long jump, triple jump, javelin, pole vault)</option>
-<option value="track and field (e.g., steeplechase, hurdles)   [ScoobMETs=10]">track and field (e.g., steeplechase, hurdles)</option>
-<option value="hunting, hiking with hunting gear   [ScoobMETs=9.5]">hunting, hiking with hunting gear</option>
-<option value="pistol shooting or trap shooting, standing   [ScoobMETs=2.5]">pistol shooting or trap shooting, standing</option>
-<option value="rifle exercises, shooting, lying down   [ScoobMETs=2.3]">rifle exercises, shooting, lying down</option>
-<option value="rifle exercises, shooting, kneeling or standing   [ScoobMETs=2.5]">rifle exercises, shooting, kneeling or standing</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="jog/walk combination (jogging component of less than 10 minutes) ( 180)   [ScoobMETs=6]">jog/walk combination (jogging component of less than 10 minutes) ( 180)</option>
-<option value="jogging, general   [ScoobMETs=7]">jogging, general</option>
-<option value="jogging, in place   [ScoobMETs=8]">jogging, in place</option>
-<option value="jogging, on a mini-tramp   [ScoobMETs=4.5]">jogging, on a mini-tramp</option>
-<option value="Running, 4 mph (13 min/mile)   [ScoobMETs=6]">Running, 4 mph (13 min/mile)</option>
-<option value="running, 5 mph (12 min/mile)   [ScoobMETs=8.3]">running, 5 mph (12 min/mile)</option>
-<option value="running, 5.2 mph (11.5 min/mile)   [ScoobMETs=9]">running, 5.2 mph (11.5 min/mile)</option>
-<option value="running, 6 mph (10 min/mile)   [ScoobMETs=9.8]">running, 6 mph (10 min/mile)</option>
-<option value="running, 6.7 mph (9 min/mile)   [ScoobMETs=10.5]">running, 6.7 mph (9 min/mile)</option>
-<option value="running, 7 mph (8.5 min/mile)   [ScoobMETs=11]">running, 7 mph (8.5 min/mile)</option>
-<option value="running, 7.5 mph (8 min/mile)   [ScoobMETs=11.5]">running, 7.5 mph (8 min/mile)</option>
-<option value="running, 8 mph (7.5 min/mile)   [ScoobMETs=11.8]">running, 8 mph (7.5 min/mile)</option>
-<option value="running, 8.6 mph (7 min/mile)   [ScoobMETs=12.3]">running, 8.6 mph (7 min/mile)</option>
-<option value="running, 9 mph (6.5 min/mile)   [ScoobMETs=12.8]">running, 9 mph (6.5 min/mile)</option>
-<option value="running, 10 mph (6 min/mile)   [ScoobMETs=14.5]">running, 10 mph (6 min/mile)</option>
-<option value="running, 11 mph (5.5 min/mile)   [ScoobMETs=16]">running, 11 mph (5.5 min/mile)</option>
-<option value="running, 12 mph (5 min/mile)   [ScoobMETs=19]">running, 12 mph (5 min/mile)</option>
-<option value="running, 13 mph (4.6 min/mile)   [ScoobMETs=19.8]">running, 13 mph (4.6 min/mile)</option>
-<option value="running, 14 mph (4.3 min/mile)   [ScoobMETs=23]">running, 14 mph (4.3 min/mile)</option>
-<option value="running, cross country   [ScoobMETs=9]">running, cross country</option>
-<option value="running, ( 200)   [ScoobMETs=8]">running, ( 200)</option>
-<option value="running, stairs, up   [ScoobMETs=15]">running, stairs, up</option>
-<option value="running, on a track, team practice   [ScoobMETs=10]">running, on a track, team practice</option>
-<option value="running, training, pushing a wheelchair or baby carrier   [ScoobMETs=8]">running, training, pushing a wheelchair or baby carrier</option>
-<option value="running, marathon   [ScoobMETs=13.3]">running, marathon</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="bicycling, mountain, uphill, vigorous   [ScoobMETs=14]">bicycling, mountain, uphill, vigorous</option>
-<option value="bicycling, mountain, competitive, racing   [ScoobMETs=16]">bicycling, mountain, competitive, racing</option>
-<option value="bicycling, BMX   [ScoobMETs=8.5]">bicycling, BMX</option>
-<option value="bicycling, mountain, general   [ScoobMETs=8.5]">bicycling, mountain, general</option>
-<option value="bicycling,  under 10 mph, leisure, to work or for pleasure   [ScoobMETs=4]">bicycling,  under 10 mph, leisure, to work or for pleasure</option>
-<option value="bicycling, to/from work, self selected pace   [ScoobMETs=6.8]">bicycling, to/from work, self selected pace</option>
-<option value="bicycling, on dirt or farm road, moderate pace   [ScoobMETs=5.8]">bicycling, on dirt or farm road, moderate pace</option>
-<option value="bicycling, general   [ScoobMETs=7.5]">bicycling, general</option>
-<option value="bicycling, leisure, 5.5 mph   [ScoobMETs=3.5]">bicycling, leisure, 5.5 mph</option>
-<option value="bicycling, leisure, 9.4 mph   [ScoobMETs=5.8]">bicycling, leisure, 9.4 mph</option>
-<option value="bicycling, 10-11.9 mph, leisure, slow, light effort   [ScoobMETs=6.8]">bicycling, 10-11.9 mph, leisure, slow, light effort</option>
-<option value="bicycling, 12-13.9 mph, leisure, moderate effort   [ScoobMETs=8]">bicycling, 12-13.9 mph, leisure, moderate effort</option>
-<option value="bicycling, 14-15.9 mph, racing or leisure, fast, vigorous effort   [ScoobMETs=10]">bicycling, 14-15.9 mph, racing or leisure, fast, vigorous effort</option>
-<option value="bicycling, 16-19 mph not drafting or over 19 mph drafting   [ScoobMETs=12]">bicycling, 16-19 mph not drafting or over 19 mph drafting</option>
-<option value="bicycling over 20 mph, racing, not drafting   [ScoobMETs=15.8]">bicycling over 20 mph, racing, not drafting</option>
-<option value="bicycling, 12 mph, seated, hands on brake hoods or bar drops, 80 rpm   [ScoobMETs=8.5]">bicycling, 12 mph, seated, hands on brake hoods or bar drops, 80 rpm</option>
-<option value="bicycling, 12 mph, standing, hands on brake hoods, 60 rpm   [ScoobMETs=9]">bicycling, 12 mph, standing, hands on brake hoods, 60 rpm</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="backpacking    [ScoobMETs=7]">backpacking </option>
-<option value="backpacking, hiking or organized walking with a daypack   [ScoobMETs=7.8]">backpacking, hiking or organized walking with a daypack</option>
-<option value="carrying 15 pound load (e.g. suitcase), level ground or downstairs   [ScoobMETs=5]">carrying 15 pound load (e.g. suitcase), level ground or downstairs</option>
-<option value="hiking, cross country    [ScoobMETs=6]">hiking, cross country </option>
-<option value="hiking or walking at a normal pace through fields and hillsides   [ScoobMETs=5.3]">hiking or walking at a normal pace through fields and hillsides</option>
-<option value="bird watching, slow walk   [ScoobMETs=2.5]">bird watching, slow walk</option>
-<option value="marching, moderate speed, military, no pack   [ScoobMETs=4.5]">marching, moderate speed, military, no pack</option>
-<option value="marching rapidly, military, no pack   [ScoobMETs=8]">marching rapidly, military, no pack</option>
-<option value="pushing or pulling stroller, 2.5 to 3.1 mph   [ScoobMETs=4]">pushing or pulling stroller, 2.5 to 3.1 mph</option>
-<option value="pushing a wheelchair, non-occupational   [ScoobMETs=3.8]">pushing a wheelchair, non-occupational</option>
-<option value="race walking   [ScoobMETs=6.5]">race walking</option>
-<option value="stair climbing, using or climbing up ladder    [ScoobMETs=8]">stair climbing, using or climbing up ladder </option>
-<option value="stair climbing, slow pace   [ScoobMETs=4]">stair climbing, slow pace</option>
-<option value="stair climbing, fast pace   [ScoobMETs=8.8]">stair climbing, fast pace</option>
-<option value="using crutches   [ScoobMETs=5]">using crutches</option>
-<option value="walking, for exercise, 5.0 mph, with ski poles, Nordic walking, level, fast pace   [ScoobMETs=9.5]">walking, for exercise, 5.0 mph, with ski poles, Nordic walking, level, fast pace</option>
-<option value="walking, for exercise, with ski poles, Nordic walking, uphill   [ScoobMETs=6.8]">walking, for exercise, with ski poles, Nordic walking, uphill</option>
-<option value="walking, backwards, 3.5 mph, level   [ScoobMETs=6]">walking, backwards, 3.5 mph, level</option>
-<option value="walking, backwards, 3.5 mph, uphill, 5% grade   [ScoobMETs=8]">walking, backwards, 3.5 mph, uphill, 5% grade</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="boating, power, driving   [ScoobMETs=2.5]">boating, power, driving</option>
-<option value="boating, power, passenger, light   [ScoobMETs=1.3]">boating, power, passenger, light</option>
-<option value="canoeing, on camping trip    [ScoobMETs=4]">canoeing, on camping trip </option>
-<option value="canoeing, harvesting wild rice, knocking rice off the stalks   [ScoobMETs=3.3]">canoeing, harvesting wild rice, knocking rice off the stalks</option>
-<option value="canoeing, portaging   [ScoobMETs=7]">canoeing, portaging</option>
-<option value="canoeing, rowing, 2.0-3.9 mph, light effort   [ScoobMETs=2.8]">canoeing, rowing, 2.0-3.9 mph, light effort</option>
-<option value="canoeing, rowing, 4.0-5.9 mph, moderate effort   [ScoobMETs=5.8]">canoeing, rowing, 4.0-5.9 mph, moderate effort</option>
-<option value="canoeing, rowing, kayaking, competition,  over 6 mph, vigorous effort   [ScoobMETs=12.5]">canoeing, rowing, kayaking, competition,  over 6 mph, vigorous effort</option>
-<option value="canoeing, rowing, for pleasure, general    [ScoobMETs=3.5]">canoeing, rowing, for pleasure, general </option>
-<option value="canoeing, rowing, in competition, or crew or sculling    [ScoobMETs=12]">canoeing, rowing, in competition, or crew or sculling </option>
-<option value="diving, springboard or platform   [ScoobMETs=3]">diving, springboard or platform</option>
-<option value="kayaking, moderate effort   [ScoobMETs=5]">kayaking, moderate effort</option>
-<option value="paddle boat   [ScoobMETs=4]">paddle boat</option>
-<option value="sailing, boat and board sailing, windsurfing, ice sailing, general    [ScoobMETs=3]">sailing, boat and board sailing, windsurfing, ice sailing, general </option>
-<option value="sailing, in competition   [ScoobMETs=4.5]">sailing, in competition</option>
-<option value="sailing, Sunfish/Laser/Hobby Cat, Keel boats, ocean sailing, yachting, leisure   [ScoobMETs=3.3]">sailing, Sunfish/Laser/Hobby Cat, Keel boats, ocean sailing, yachting, leisure</option>
-<option value="skiing, water or wakeboarding    [ScoobMETs=6]">skiing, water or wakeboarding </option>
-<option value="jet skiing, driving, in water   [ScoobMETs=7]">jet skiing, driving, in water</option>
-<option value="skindiving, fast   [ScoobMETs=15.8]">skindiving, fast</option>
-<option value="skindiving, moderate   [ScoobMETs=11.8]">skindiving, moderate</option>
-<option value="skindiving, scuba diving, general    [ScoobMETs=7]">skindiving, scuba diving, general </option>
-<option value="snorkeling   [ScoobMETs=5]">snorkeling</option>
-<option value="surfing, body or board, general   [ScoobMETs=3]">surfing, body or board, general</option>
-<option value="surfing, body or board, competitive   [ScoobMETs=5]">surfing, body or board, competitive</option>
-<option value="paddle boarding, standing   [ScoobMETs=6]">paddle boarding, standing</option>
-<option value="swimming laps, freestyle, fast, vigorous effort   [ScoobMETs=9.8]">swimming laps, freestyle, fast, vigorous effort</option>
-<option value="swimming laps, freestyle, front crawl, slow, light or moderate effort   [ScoobMETs=5.8]">swimming laps, freestyle, front crawl, slow, light or moderate effort</option>
-<option value="swimming, backstroke, general, training or competition   [ScoobMETs=9.5]">swimming, backstroke, general, training or competition</option>
-<option value="swimming, backstroke, recreational   [ScoobMETs=4.8]">swimming, backstroke, recreational</option>
-<option value="swimming, breaststroke, general, training or competition   [ScoobMETs=10.3]">swimming, breaststroke, general, training or competition</option>
-<option value="swimming, breaststroke, recreational   [ScoobMETs=5.3]">swimming, breaststroke, recreational</option>
-<option value="swimming, butterfly, general   [ScoobMETs=13.8]">swimming, butterfly, general</option>
-<option value="swimming, crawl, fast speed, ~75 yards/minute, vigorous effort   [ScoobMETs=10]">swimming, crawl, fast speed, ~75 yards/minute, vigorous effort</option>
-<option value="swimming, crawl, medium speed, ~50 yards/minute, vigorous effort   [ScoobMETs=8.3]">swimming, crawl, medium speed, ~50 yards/minute, vigorous effort</option>
-<option value="swimming, lake, ocean, river    [ScoobMETs=6]">swimming, lake, ocean, river </option>
-<option value="swimming, leisurely, not lap swimming, general   [ScoobMETs=6]">swimming, leisurely, not lap swimming, general</option>
-<option value="swimming, sidestroke, general   [ScoobMETs=7]">swimming, sidestroke, general</option>
-<option value="swimming, synchronized   [ScoobMETs=8]">swimming, synchronized</option>
-<option value="swimming, treading water, fast, vigorous effort   [ScoobMETs=9.8]">swimming, treading water, fast, vigorous effort</option>
-<option value="swimming, treading water, moderate effort, general   [ScoobMETs=3.5]">swimming, treading water, moderate effort, general</option>
-<option value="tubing, floating on a river, general   [ScoobMETs=2.3]">tubing, floating on a river, general</option>
-<option value="water aerobics, water calisthenics   [ScoobMETs=5.5]">water aerobics, water calisthenics</option>
-<option value="water polo   [ScoobMETs=10]">water polo</option>
-<option value="water volleyball   [ScoobMETs=3]">water volleyball</option>
-<option value="water jogging   [ScoobMETs=9.8]">water jogging</option>
-<option value="water walking, light effort, slow pace   [ScoobMETs=2.5]">water walking, light effort, slow pace</option>
-<option value="water walking, moderate effort, moderate pace   [ScoobMETs=4.5]">water walking, moderate effort, moderate pace</option>
-<option value="water walking, vigorous effort, brisk pace   [ScoobMETs=6.8]">water walking, vigorous effort, brisk pace</option>
-<option value="whitewater rafting, kayaking, or canoeing   [ScoobMETs=5]">whitewater rafting, kayaking, or canoeing</option>
-<option value="windsurfing, not pumping for speed   [ScoobMETs=5]">windsurfing, not pumping for speed</option>
-<option value="windsurfing or kitesurfing, crossing trial   [ScoobMETs=11]">windsurfing or kitesurfing, crossing trial</option>
-<option value="windsurfing, competition, pumping for speed   [ScoobMETs=13.5]">windsurfing, competition, pumping for speed</option>
-<option value="----------------------------------   [ScoobMETs=1]">———————————-</option>
-<option value="dog sledding, mushing   [ScoobMETs=7.5]">dog sledding, mushing</option>
-<option value="dog sledding, passenger   [ScoobMETs=2.5]">dog sledding, passenger</option>
-<option value="moving ice house, set up/drill holes   [ScoobMETs=6]">moving ice house, set up/drill holes</option>
-<option value="ice fishing, sitting   [ScoobMETs=2]">ice fishing, sitting</option>
-<option value="skating, ice dancing   [ScoobMETs=14]">skating, ice dancing</option>
-<option value="skating, ice, 9 mph or less   [ScoobMETs=5.5]">skating, ice, 9 mph or less</option>
-<option value="skating, ice, general ( 360)   [ScoobMETs=7]">skating, ice, general ( 360)</option>
-<option value="skating, ice, rapidly, more than 9 mph, not competitive   [ScoobMETs=9]">skating, ice, rapidly, more than 9 mph, not competitive</option>
-<option value="skating, speed, competitive   [ScoobMETs=13.3]">skating, speed, competitive</option>
-<option value="ski jumping, climb up carrying skis   [ScoobMETs=7]">ski jumping, climb up carrying skis</option>
-<option value="skiing, general   [ScoobMETs=7]">skiing, general</option>
-<option value="skiing, cross country, 2.5 mph, slow or light effort, ski walking   [ScoobMETs=6.8]">skiing, cross country, 2.5 mph, slow or light effort, ski walking</option>
-<option value="skiing, cross country, 4.0-4.9 mph, moderate speed and effort, general   [ScoobMETs=9]">skiing, cross country, 4.0-4.9 mph, moderate speed and effort, general</option>
-<option value="skiing, cross country, 5.0-7.9 mph, brisk speed, vigorous effort   [ScoobMETs=12.5]">skiing, cross country, 5.0-7.9 mph, brisk speed, vigorous effort</option>
-<option value="skiing, cross country, over 8.0 mph, elite skier, racing   [ScoobMETs=15]">skiing, cross country, over 8.0 mph, elite skier, racing</option>
-<option value="skiing, cross country, hard snow, uphill, maximum, snow mountaineering   [ScoobMETs=15.5]">skiing, cross country, hard snow, uphill, maximum, snow mountaineering</option>
-<option value="skiing, cross-country, skating   [ScoobMETs=13.3]">skiing, cross-country, skating</option>
-<option value="skiing, cross-country, biathlon, skating technique   [ScoobMETs=13.5]">skiing, cross-country, biathlon, skating technique</option>
-<option value="skiing, downhill, alpine or snowboarding, light effort, active time only   [ScoobMETs=4.3]">skiing, downhill, alpine or snowboarding, light effort, active time only</option>
-<option value="skiing, downhill, alpine or snowboarding, moderate effort   [ScoobMETs=5.3]">skiing, downhill, alpine or snowboarding, moderate effort</option>
-<option value="skiing, downhill, vigorous effort, racing   [ScoobMETs=8]">skiing, downhill, vigorous effort, racing</option>
-<option value="skiing, roller, elite racers   [ScoobMETs=12.5]">skiing, roller, elite racers</option>
-<option value="sledding, tobogganing, bobsledding, luge    [ScoobMETs=7]">sledding, tobogganing, bobsledding, luge </option>
-<option value="snow shoeing, moderate effort   [ScoobMETs=5.3]">snow shoeing, moderate effort</option>
-<option value="snow shoeing, vigorous effort   [ScoobMETs=10]">snow shoeing, vigorous effort</option>
-<option value="snowmobiling, driving, moderate   [ScoobMETs=3.5]">snowmobiling, driving, moderate</option>
-<option value="snowmobiling, passenger   [ScoobMETs=2]">snowmobiling, passenger</option>
-</select>
+        <option>choose activity</option>
+        <option *ngFor="let activity of sportsActivity">{{activity}}</option>
+      </select>
 
       <label>Around The House</label>
    
       <select name="activityHouse">
+        <option>choose activity</option>
         <option *ngFor="let activity of houseActivity">{{activity}}</option>
       </select>
   </div>
@@ -647,6 +379,7 @@ Calories Burned
 })
 export class BurnedCaloriesComponent implements OnInit { 
     houseActivity: Object;
+    sportsActivity: Object;
 
     constructor(private dataService: DataService) {}
 
@@ -654,8 +387,13 @@ export class BurnedCaloriesComponent implements OnInit {
         this.houseActivity = this.dataService.getHouseActivities();
     }
 
+    sportActivities(): void {
+        this.sportsActivity = this.dataService.getSportActivities();
+    }
+
     ngOnInit(): void {
         this.houseActivities();
+        this.sportActivities();
     }
 
 }
